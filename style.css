@@ -1,0 +1,60 @@
+html,
+body {
+  background-color: black;
+  color: rgb(42, 117, 211);
+  margin: 2px;
+  margin-bottom: 30px;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+header {
+  color: #FFFFFF;
+  font-size: 80px;
+  border-bottom: solid 2px red;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+
+  font-family: "Playfair Display", serif;
+}
+
+.inicio {
+  background: rgb(33, 32, 32);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px rgb(255, 0, 0);
+}
+
+p {
+  text-align: justify;
+}
+
+.video {
+  margin-right: 10px;
+}
+
+.logo {
+  height: 150px;
+  position: relative;
+  margin-left: 400px;
+}
+
+.batata {
+  margin: 50px;
+  align-content: center;
+}
+
+.clipes {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img {
+  height: 200px;
+  opacity: 100;
+}
